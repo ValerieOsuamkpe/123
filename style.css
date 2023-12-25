@@ -1,0 +1,82 @@
+/* import font here */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "montserrat", sans-serif;
+}
+.section1 {
+    display: flex;
+    margin: 7.5rem;
+    align-items: center;
+}
+.left1 {
+    /* border: #2B5380 solid; */
+    width: 100%;
+}
+.section1 h1 {
+    color: #2B5380;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.section1 h2 {
+    color: #505050;
+    font-size: 2.1rem;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 0.75rem;
+}
+.section1 p {
+    color: #505050;
+    font-size: 1.25rem;
+    font-weight: 400;
+    width: 85%;
+    margin: 2rem 0;
+    border: dotted yellow;
+}
+.CTA button {
+    font-family: "montserrat";
+    font-size: 1.3rem;
+    font-weight: 700;
+    border: none;
+    padding: 0.7rem 3.0rem;
+}
+.CTA .button1 {
+    color: #fff;
+    background-color: #2B5380;
+    margin-right: 2.7rem;
+}
+.CTA .button2 {
+    color: #2B5380;
+    background-color: #fff;
+    border: 1px solid #2B5380;
+}
+
+/* Section 2 starts here */
+.section2 {
+    margin: 0 7.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.section2 .spec1 {
+    display: flex;
+    color: #fff;
+    background-color: #2B5380;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem 2rem;
+    width: 30%;
+}
+.section2 .spec2 {
+    display: flex;
+    color: #505050;
+    background-color: #99C8FE;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem 2rem;
+    width: 30%;
+}
+.section2 
